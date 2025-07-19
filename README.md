@@ -2,18 +2,30 @@ Linux
 
 Linux Commands
 
-Command                             Description                   
+Command                                  Description          
+
 pwd                            	Print working directory
+
 ls	                            List files and directories
+
 cd	                            Change directory
+
 mkdir	                          Make a new directory
+
 touch	                          Create an empty file
+
 rm	                            Remove files or directories
+
 cp	                            Copy files or directories
+
 mv	                            Move or rename files
+
 clear                         	Clear the terminal
+
 echo	                          Print text to terminal
+
 man <command>	                  Show manual for command
+
 date                            Shows current date and time (system timezone)
 
  2. File Permissions and Ownership
