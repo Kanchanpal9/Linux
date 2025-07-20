@@ -4,105 +4,165 @@ Linux Commands
 
 Command                                  Description          
 
-pwd                            	Print working directory
+pwd :                                Print working directory
 
-ls	                            List files and directories
+ls :	                            List files and directories
 
-cd	                            Change directory
+cd :	                            Change directory
 
-mkdir	                          Make a new directory
+mkdir :	                            Make a new directory
 
-touch	                          Create an empty file
+touch :	                            Create an empty file
 
-rm	                            Remove files or directories
+rm :	                            Remove files or directories
 
-cp	                            Copy files or directories
+cp :	                            Copy files or directories
 
-mv	                            Move or rename files
+mv :	                            Move or rename files
 
-clear                         	Clear the terminal
+clear :                              Clear the terminal
 
-echo	                          Print text to terminal
+echo :	                            Print text to terminal
 
-man <command>	                  Show manual for command
+man <command> :                     Show manual for command
 
-date                            Shows current date and time (system timezone)
+date :                              Shows current date and time (system timezone)
 
  2. File Permissions and Ownership
-Command	               Description
-chmod	              Change file permissions 
-chown	              Change file owner 
-ls -l	              Long listing with permissions
-umask               Default permission mask
+    
+Command	                         Description
+
+chmod :	                     Change file permissions 
+
+chown :	                     Change file owner 
+
+ls -l :	                     Long listing with permissions
+
+umask :                      Default permission mask
 
 Permission Format:
+
 r = read, w = write, x = execute
+
 Example: -rwxr-xr--
 
  3. File Content & Search
-Command              	Description
-cat	                View file contents
-less /              more	View file page by page
-head /              tail	View top/bottom lines of file
-grep                Search text in file
-find	              Find files/directories
-wc	                Word count (e.g. wc -l file)
-cut	                Cut by column
 
- 4. Package Management
- Debian/Ubuntu:
+Command                         	Description
 
-  apt update, apt install, apt remove, dpkg -i
+cat :	                            View file contents
 
- RedHat/CentOS:
+less / more :                        View file page by page
 
-  yum install, yum remove, rpm -ivh
+head / tail :	                    View top/bottom lines of file
+
+grep :                                Search text in file
+
+find :	                            Find files/directories
+
+wc :	                            Word count (e.g. wc -l file)
+
+cut :	                            Cut by column
+
+ 5. Package Management
+
+  
+Debian/Ubuntu:
+
+   apt update, apt install, apt remove, dpkg -i
+
+RedHat/CentOS:
+
+   yum install, yum remove, rpm -ivh
 
  5. User and Group Management
- Command	                   Description
- adduser / useradd	        Add a new user
- passwd	                    Set/change password
- usermod	                  Modify user
- deluser / userdel	        Delete user
- groupadd, groupdel	        Add/delete groups
- id	                        Show user info
- whoami	                    Show current user
+    
+ Command	                                Description
+ 
+ adduser / useradd :	                       Add a new user
+ 
+ passwd	:                                      Set/change password
+ 
+ usermod :	                               Modify user
+ 
+ deluser / userdel :	                       Delete user
+ 
+ groupadd, groupdel :	                       Add/delete groups
+ 
+ id :	                                       Show user info
+ 
+ whoami :	                               Show current user
+ 
 
-6. Process Management
-Command	                                Description
-ps aux	                             View running processes
-top / htop	                         Real-time process monitor
-kill <PID>	                         Kill process by ID
-killall <name>                       Kill process by name
-nice / renice	                       Set process priority
+7. Process Management
+   
+Command	                                          Description
 
-7. Archiving & Compression
-Command	                             Description
-tar -cvf	                         Create archive
-tar -xvf	                         Extract archive
-gzip, gunzip	                     Compress/decompress files
-zip, unzip	                       Zip/unzip files
+ps aux :	                              View running processes
 
-8. Networking Commands
-Command	                      Description
-ip a /                  ifconfig	Show IP addresses
-ping	                  Test connectivity
-netstat -tuln	          List open ports
-ss -tulwn	              Show listening sockets
-curl	                  Transfer data from URL
-wget	                  Download from URL
-scp, rsync	            Secure copy/sync files between systems 
+top / htop :	                             Real-time process monitor
+
+kill <PID> :	                             Kill process by ID
+
+killall <name> :                               Kill process by name
+
+nice / renice :	                             Set process priority
 
 
-10. Disk and System Monitoring
-Command	                   Description
-df -h	                    Disk usage
-du -sh *	                Directory sizes
-free -h	                  Memory usage
-uptime	                  System load
-dmesg	                    Boot and kernel logs
-journalctl	              Systemd log viewer
-top / htop                System performance
+
+9. Archiving & Compression
+    
+Command	                                     Description
+
+tar -cvf :	                           Create archive
+
+tar -xvf :	                           Extract archive
+
+gzip, gunzip :	                           Compress/decompress files
+
+zip, unzip :	                           Zip/unzip files
+
+
+
+11. Networking Commands
+     
+Command	                                 Description
+
+ip a / ifconfig	:                     Show IP addresses
+
+ping :	                             Test connectivity
+
+netstat -tuln :	                     List open ports
+
+ss -tulwn :	                     Show listening sockets
+
+curl :	                             Transfer data from URL
+
+wget :	                             Download from URL
+
+scp, rsync :	                     Secure copy/sync files between systems 
+
+
+13. Disk and System Monitoring
+    
+Command	                                   Description
+
+df -h	                                 Disk usage
+
+du -sh *	                         Directory sizes
+
+free -h	                                 Memory usage
+
+uptime	                                 System load
+
+dmesg	                                 Boot and kernel logs
+
+journalctl	                         Systemd log viewer
+
+top / htop                               System performance
+
+
+
 
 <img width="1920" height="1080" alt="Screenshot 2025-07-09 112608" src="https://github.com/user-attachments/assets/2cd3aa3c-c2e4-4afe-b54b-4b97ef6fdf7c" />
 
