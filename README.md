@@ -1,8 +1,7 @@
 Linux
 
 Linux Commands
-
-Command                                  Description          
+          
 
 pwd :                                Print working directory
 
@@ -14,7 +13,7 @@ mkdir :	                            Make a new directory
 
 touch :	                            Create an empty file
 
-rm :	                            Remove files or directories
+rm :	                              Remove files or directories
 
 cp :	                            Copy files or directories
 
@@ -79,34 +78,34 @@ RedHat/CentOS:
     
  Command	                                Description
  
- adduser / useradd :	                       Add a new user
+ adduser / useradd :	                        Add a new user
  
- passwd	:                                      Set/change password
+ passwd	:                                    Set/change password
  
- usermod :	                               Modify user
+ usermod :	                                  Modify user
  
- deluser / userdel :	                       Delete user
+ deluser / userdel :	                        Delete user
  
  groupadd, groupdel :	                       Add/delete groups
  
  id :	                                       Show user info
  
- whoami :	                               Show current user
+ whoami :	                                   Show current user
  
 
 7. Process Management
    
 Command	                                          Description
 
-ps aux :	                              View running processes
+ps aux :	                                 View running processes
 
 top / htop :	                             Real-time process monitor
 
 kill <PID> :	                             Kill process by ID
 
-killall <name> :                               Kill process by name
+killall <name> :                          Kill process by name
 
-nice / renice :	                             Set process priority
+nice / renice :	                          Set process priority
 
 
 
@@ -147,17 +146,17 @@ scp, rsync :	                     Secure copy/sync files between systems
     
 Command	                                   Description
 
-df -h	                                 Disk usage
+df -h	                                   Disk usage
 
-du -sh *	                         Directory sizes
+du -sh *	                                Directory sizes
 
 free -h	                                 Memory usage
 
-uptime	                                 System load
+uptime	                                  System load
 
-dmesg	                                 Boot and kernel logs
+dmesg	                                   Boot and kernel logs
 
-journalctl	                         Systemd log viewer
+journalctl	                              Systemd log viewer
 
 top / htop                               System performance
 
@@ -184,18 +183,12 @@ top / htop                               System performance
 
 <img width="1920" height="1080" alt="Screenshot 2025-07-09 113807" src="https://github.com/user-attachments/assets/d7357277-00a8-4fca-9486-7545ef242b0e" />
 
-
-
-
-
 <img width="1920" height="1080" alt="Screenshot 2025-07-09 115123" src="https://github.com/user-attachments/assets/0c2e4d25-34cc-4819-81b7-3e92e5a26693" />
 
 <img width="1920" height="1080" alt="Screenshot 2025-07-09 115142" src="https://github.com/user-attachments/assets/d3dd28f0-91fc-4047-bbfa-b4e34a9d6492" />
 
 
 <img width="1920" height="1080" alt="Screenshot 2025-07-09 120901" src="https://github.com/user-attachments/assets/c7fe1685-2b58-4033-acb8-11dae5b7575f" />
-
-
 
 
 <img width="1920" height="1080" alt="Screenshot 2025-07-10 111255" src="https://github.com/user-attachments/assets/f7ba6618-f896-4e38-9a03-0aac19f8cb63" />
@@ -214,6 +207,7 @@ top / htop                               System performance
 
 
 <img width="1920" height="1080" alt="Screenshot 2025-07-12 102940" src="https://github.com/user-attachments/assets/74e9884a-39a4-4540-83a8-f05fc348f163" />
+
 <img width="1920" height="1080" alt="Screenshot 2025-07-12 103634" src="https://github.com/user-attachments/assets/e197590a-8e67-4970-b7b1-7a3ab3feb7cb" />
 
 
